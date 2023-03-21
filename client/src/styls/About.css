@@ -1,0 +1,44 @@
+.About {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .About-content {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .About-content h1 {
+      font-size: 24px;
+    }
+    .About-content p {
+      font-size: 16px;
+    }
+  }
+
+  .about-button {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .about-button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  

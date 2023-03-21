@@ -1,0 +1,70 @@
+.contact-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 100vh;
+    padding: 50px;
+  }
+  
+  .contact-us-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    margin-right: 20px;
+
+  }
+  
+  .contact-us-form label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us-form input[type="text"],
+  .contact-us-form input[type="email"],
+  .contact-us-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .contact-us-form button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .company-info {
+    width: 45%;
+    text-align: left;
+
+  }
+  
+  .company-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .company-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000;
+
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  

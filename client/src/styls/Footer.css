@@ -1,0 +1,21 @@
+.Footer {
+    background-color: black;
+    color: lightgray;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #ccc;
+  }
+  
+  .Footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .Footer a {
+    color: gray;
+  }
+  

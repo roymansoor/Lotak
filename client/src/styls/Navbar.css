@@ -1,0 +1,81 @@
+.Navbar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .Navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  .Navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .Home {
+    margin-right: auto;
+  }
+  
+  .SignInRegister {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Contact {
+    margin-left: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .Navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .Navbar button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .Navbar button:focus {
+      outline: none;
+    }
+    
+    .Navbar button:hover {
+      text-decoration: underline;
+    }
+    
+    .Navbar ul {
+      display: none;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .Navbar ul li {
+      margin: 10px 0;
+    }
+    
+    .Navbar ul li a {
+      display: block;
+      font-size: 18px;
+      padding: 10px;
+    }
+    
+    .Navbar.active ul {
+      display: block;
+    }
+  }
