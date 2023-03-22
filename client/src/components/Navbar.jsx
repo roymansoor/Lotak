@@ -13,13 +13,13 @@ function Navbar() {
           <div className="Home">
             <a href="/">Home</a>
           </div>
-          <button onClick={handleToggle}>Menu</button>
-          <ul className={isActive ? 'active' : ''}>
-            <li><a href="#about-section">About</a></li>
-            <li><a href="/signin">Sign In</a></li>
-            <li><a href="/register">Register</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
+       
+
+            <a href="#about-section">About</a>
+            <a href="/signin">Sign In</a>
+            <a href="/register">Register</a>
+            <a href="/contact">Contact</a>
+    
         </div>
       );
   }
